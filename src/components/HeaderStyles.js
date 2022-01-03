@@ -15,10 +15,10 @@ export const Content = styled.div`
 `;
 
 export const LogoImg = styled.img`
-  width: 200px;
+  height: 45px;
 
   @media (max-width: 500px) {
-    width: 150px;
+    height: 35px;
   }
 `;
 
@@ -27,5 +27,13 @@ export const TMDBLogoImg = styled.img`
 
   @media (max-width: 500px) {
     width: 80px;
+  }
+`;
+
+export const ReactLogoImg = styled.img`
+  height: 45px;
+
+  @media (max-width: 500px) {
+    height: 35px;
   }
 `;
